@@ -21,16 +21,17 @@ class TodoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurpleAccent,
         title: Row(
           children: [
             Image(image: AssetImage(
               "assets/images/view-list.png"), // Sử dụng hình ảnh thay thế icon
               width: 40,
               height: 40,
-              color: Colors.deepPurpleAccent,
+              color: Colors.white,
             ),
             SizedBox(width: 10),
-            Text("To-Do List"),
+            Text("To-Do List", style: TextStyle(color: Colors.white)),
           ],
         ),
       ),
