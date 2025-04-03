@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
                     final TextEditingController _controller = TextEditingController();
                     final List<String> _statusOptions = ["Pending", "Completed"];
                     String _selectedStatus = "Pending";
-                    List<bool> _isCheckedList = List<bool>.generate(100000, (index) => false);
+                    List<bool> _isCheckedList = List<bool>.generate(100000, (index) => false);// nguon cam hung goi ten gpt
 
                     @override
                     Widget build(BuildContext context) {
